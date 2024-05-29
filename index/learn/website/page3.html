@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+
+    <!--pagnation=method by which a documenty is separated into pages 
+     abd numbers are given
+    
+    -->
+
+
+    <style>
+ .pagnation{
+
+    text-align: center;
+    text-decoration: none;
+    padding:8px 15px;
+    display: inline-block;
+ }
+
+ .pagnation a{
+
+    color:black
+ }
+ .pagnation a.active{
+font-weight:bold;
+    background-color:green ;
+    border-radius: 5;
+ }
+
+
+
+
+ .pagnation a:hover:not(.active){
+
+
+    background-color: grey;
+    border-radius: 5px;
+ }
+
+    </style>
+
+<h1> This is a page #3</h1>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, vel blanditiis pariatur asperiores at tempora, quod id, illum possimus assumenda labore tenetur! Quam, sequi corporis velit in harum animi odit!</p>
+<div classs= "pagnation">
+
+<a href=""><</a>
+<a href="index.html" >1</a>
+<a href="page2.html">2</a>
+<a href="page3.html" class="active">3</a>
+<a href="page4.html">4</a>
+<a href="page.html">5</a>
+<a href="page.html">></a>
+
+
+
+</div>
+</body>
+</html>

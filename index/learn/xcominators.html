@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+   .container{
+    border:2px solid;
+   }
+
+   .container +p{
+    background-color:rgba(126, 80, 108, 0.62);
+   }
+
+
+    </style>
+
+    
+    <!--
+        combinators=explains the relationship between thelisted selectors ..
+        =descendant
+            >=child
+            ..~=general sibling
+            ...+=adjacent siblins-->
+
+
+
+<div class="container">
+    <p>this is no 1</p>
+    <p>this is no 2</p>
+    
+
+    
+    <div> this is no 3</div>
+    
+    </div>
+    
+    <p>this is no 5</p>
+<p>this is no 6</p>
+
+</body>
+</html>

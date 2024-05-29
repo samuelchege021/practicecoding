@@ -1,0 +1,130 @@
+/*
+@font-face {
+    
+    src: url(fonts\Sedan_SC);
+}
+font-family:Sedan_SC;
+
+@font-face{
+
+    src:url(fonts/open_Sans);
+
+
+}
+
+body{
+
+       border-style:dotted;
+       /* solid double groove dotted ridge inset onset none  border :3px solid hsl()acts as the shortcutt   */
+       
+    border-width: 1px;
+    background-color:rgb(203,66,245);
+    border-color:rgb(red, green, blue);
+    border-radius: 5px;
+    margin: 1;
+}
+
+h1{
+
+    
+    color:#81BE83;
+    font-family:"open_Sans" ;
+
+
+
+    /*
+    #box{
+        width:100px
+        height:100px
+        background-color:;
+        box-shadow:3px 3px 5px
+    
+    */
+}
+#p1{
+
+margin: 0;
+text-shadow:3px 5px;
+color:darkturquoise;
+font-family:open_Sans, Tahoma, Geneva, Verdana, sans-serif;
+font-size:16px; /*1em*/
+font-weight:bold;
+font-style:italic
+}
+
+
+#p2{
+
+
+    font-family:"Sedan_SC";
+    color:#005aff;
+    /*hex*/
+}
+
+#p3{
+
+    border-top:3px solid rgb(245,66,173);
+    border-bottom:3px solid rgb(245, 66, 173);
+    border-left:3px dotted rgb(203,66,245);
+    border-right:3px groove rgb(245,66,173);
+    border-radius: 10px;
+    color:rgb(66, 233, 248);
+    /*rgb,color picker*/
+}
+
+#p4{
+
+    border-bottom: 3 px solid rgb(245, 66, 173);
+    color:rgb(245, 66, 173);
+}
+
+.odd{
+    color:red;
+}
+.even{
+
+    color:blue;
+}
+  
+
+#box1{
+
+
+    /*
+    
+    position:relative;
+    top:100px;
+    left:100px;*/
+    background-color:rgb(203,66,245);
+    width:200px;
+    height:200px;
+    position: sticky;
+    right: 0px;
+    bottom:0px;
+    left:0px;
+
+
+
+}
+
+
+#box2{
+
+
+    /*
+    
+    position:relative;
+    top:100px;
+    left:100px;*/
+    background-color:rgb(203,66,245);
+    width:100px;
+    height:100px;
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+    left:0px;
+    top:50px;
+    left:50px;
+
+
+}
